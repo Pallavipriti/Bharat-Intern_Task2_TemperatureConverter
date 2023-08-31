@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />                    
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Temperature Converter&nbsp;<i class='fa-solid fa-temperature-full' style='color: white;font-size: 3.5rem;'></i></h1>
+        
+        <div id="celsius">
+            <input  type="number" placeholder="Celsius"  name="">
+            <span>&deg;C</span>
+            
+        </div>
+        
+        <div id="fahrenheit">
+            <input  type="number" placeholder="fahrenheit" name="" >
+            <span>&deg;F</span>
+           
+        </div>
+        <div id="kelvin">
+            <input  type="number" placeholder="kelvin"   name="">
+            <span>K&nbsp;</span>
+           
+        </div>
+        
+        
+       
+  
+            <button id="reset"  onclick="reset()">Reset</button>
+        
+    </div>
+
+   <script src="script.js"></script>
+    </body>
+
+    
+</html>

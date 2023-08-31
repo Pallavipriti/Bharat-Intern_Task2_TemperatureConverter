@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url(jaroslaw-kwoczala-ynwGXMkpYcY-unsplash.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
+}
+.container{
+    height: 55.0rem;
+    width: 48rem;
+    border: 0.2rem solid rgb(77, 77, 77);
+    border-radius: 0.2rem;
+    background-color:rgb(42, 80, 82);
+  font-weight: bolder;
+   margin: 3rem auto;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  display:block;
+
+  align-items: center;
+  justify-content:space-around;
+
+}
+h1{
+    font-size: 4rem;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 600;
+  background-color: rgb(1, 23, 75);
+  padding: .3rem .3rem;
+  padding: 1.5rem .3rem;
+  margin:  0 0;
+}
+
+
+
+::placeholder{
+    color: rgb(93, 103, 111);
+   margin: 0 auto;
+  
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+#celsius input ,#fahrenheit input ,#kelvin input{
+    margin: 3.5rem auto;
+    height: 4.5rem;
+    width: 28rem;
+    color: rgb(7, 7, 7);
+    background-color: rgb(241, 239, 239);
+    border-style: none;
+    font-size: 2.2rem;
+    padding:  .2rem 1rem;
+    border-radius: 8px 0 0 8px;
+   text-align: center;
+}
+input :hover{
+    border: 1px solid black;
+}
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button{
+    -webkit-apprerance:none;
+ }
+
+span{
+    font-size: 23px;
+    color: white;
+    padding: 1.2rem;
+    margin: 0 -1px;
+    background-color: rgb(22, 27, 74);
+    border-radius: 0 8px 8px 0;
+}
+#reset{
+    font-size: 2.5rem;
+    color: black;
+    border: .2rem solid rgb(9, 2, 2);
+    border-radius: .5rem;
+    margin-top: 30px;
+    padding: .5rem 1.5rem;
+
+}
+#reset:hover{
+    background-color: rgb(15, 12, 69);
+    transform: scale(0.95);
+    color: white;
+}
